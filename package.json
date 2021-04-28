@@ -1,0 +1,19 @@
+{
+  "name": "wwimages",
+  "version": "1.0.0",
+  "description": "File and image server for aws s3",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "test"
+  },
+  "author": "julius wulf",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
